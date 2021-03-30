@@ -20,7 +20,7 @@ function validarFormulario(e) {
 
 function consultarAPI(busqueda) {
   const githubUrl = `https://jobs.github.com/positions.json?search=${busqueda}`;
-  const url = `http://api.allorigins.win/get?url=${encodeURIComponent(
+  const url = `https://api.allorigins.win/get?url=${encodeURIComponent(
     githubUrl
   )}`;
 
